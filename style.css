@@ -1,0 +1,129 @@
+/* homepage */
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+/* button {
+    padding: 0 1rem;
+    border-radius: 2rem;
+    background-color: rgb(245, 215, 233);
+    border: none;
+    margin: 1.5rem;
+}
+button:hover {
+    color: white;
+    background-color: rgb(255, 102, 196);
+    cursor: pointer;
+} */
+table {
+    border-spacing: 0;
+    margin: auto;
+}
+th {
+    background-color: rgb(212, 234, 241);
+    font-family: 'Niconne';
+    font-size: 1rem;
+}
+th, td {
+    padding: .5rem 1rem;  
+}
+td {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .8rem;
+}
+td img:hover {
+    transform: scale(1.1);
+}
+
+th:first-child {
+    text-align: left;
+    border-radius: 10px 0 0 0;
+}
+th:last-child {
+    border-radius: 0 10px 0 0;
+}
+tbody tr:nth-child(even) {   
+    background-color: #f0f0f2;
+}
+td {
+    border-bottom: 1px solid #cecfd5;
+    border-right: 1px solid #cecfd5;
+}
+td:first-child {
+    border-left: 1px solid #cecfd5;
+}
+strong, span {
+    display: block;
+}
+
+label,
+input,
+textarea,
+small {
+    display: block;
+    font-size: .7rem;
+}
+input,
+textarea {
+    width: 30vw;
+    margin: .5rem 0rem;
+    padding: .2rem;    
+}
+
+/* addEmployee page */
+.addEmployeepage {
+    width: 20rem;
+    margin: auto;
+}
+#error {
+    color: red;
+}
+/* view page */
+.viewPage h2{
+    text-align: center;
+}
+.employeeDetails {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* edit page */
+.editPage {
+    width: 20rem;
+    margin: auto;
+}
+/* .editPage a {
+    text-align: center;
+} */
+.buttonA {
+    display: flex;
+}
+.buttonA button {
+    height: 1.5rem;
+    background-color: lightblue;
+    border-radius: 3rem;
+    border: none;
+    padding: .3rem 1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: .9rem;
+}
+ a {
+    color: black;
+    text-decoration: none;
+    background-color: lightblue;
+    border-radius: 3rem;
+    padding: .2rem 1rem;
+    display: block;
+    margin: 1rem;
+}
+
+
+.add  {
+    padding: .5rem 1rem;
+    margin-top: 3rem;
+    height: 1.2rem;
+    
+}
